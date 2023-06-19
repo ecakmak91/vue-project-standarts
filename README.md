@@ -39,9 +39,9 @@
    const { someVariable } = useComposablesFunction()
  
  ```
--- I prefer to use SCSS on .vue file
--- If you define a varriable on js. You will use camelCase methods.
--- You should use sneak-case on class name on html
+- I prefer to use SCSS on .vue file
+- If you define a varriable on js. You will use camelCase methods.
+- You should use sneak-case on class name on html
 
 ## Composables
 
