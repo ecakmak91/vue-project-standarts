@@ -23,22 +23,22 @@
 - I shouldn't prefer connect store in component file
 - If you have to set up an algorithm for component files you must create a composable for this component also you can connect to store files in there.
 - Script tamplate sample
-```javascript
-  import { ref } from "vue" // import vue componets
-  import { Line } from 'vue-chartjs' // import other library  
-  import { useComposablesFunction } from `@/composables/${composablesName}`
-  import OtherComponent from "@/otherComponent" // call other components
-  
-  const props= definePros({
-    propsName:{
-      type: string,
-      require: false
-    }
-  })
-
-  const { someVariable } = useComposablesFunction()
-
-```
+ ```javascript
+   import { ref } from "vue" // import vue componets
+   import { Line } from 'vue-chartjs' // import other library  
+   import { useComposablesFunction } from `@/composables/${composablesName}`
+   import OtherComponent from "@/otherComponent" // call other components
+   
+   const props= definePros({
+     propsName:{
+       type: string,
+       require: false
+     }
+   })
+ 
+   const { someVariable } = useComposablesFunction()
+ 
+ ```
 -- I prefer to use SCSS on .vue file
 -- If you define a varriable on js. You will use camelCase methods.
 -- You should use sneak-case on class name on html
